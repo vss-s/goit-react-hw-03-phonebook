@@ -10,6 +10,7 @@ const Filter = ({ handleChange }) => (
     <input
       className={Styles.filterFields}
       id="filter"
+      value={currentUserInputName}
       type="text"
       onChange={handleChange}
       name="filter"
